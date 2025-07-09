@@ -5,7 +5,7 @@ public class questao2{
 
         public static void main(String[] args) {
             final int num = 8;
-            int resul = calcularFibonacci(num);
+            int resul = calcularTribonacci(num);
             System.out.println(resul);
             
 
@@ -13,7 +13,9 @@ public class questao2{
 
         }
 
-        public static int calcularFibonacci(final int NUM){
+        // antigo : public static int calcularFibonacci(final int NUM){
+
+        public static int calcularTribonacci(final int NUM){
             if(NUM == 0){
                 return 0;
     
@@ -25,7 +27,7 @@ public class questao2{
 
             }
     
-            return calcularFibonacci(NUM - 1) + calcularFibonacci(NUM - 2) + calcularFibonacci(NUM-3);
+            return calcularTribonacci(NUM - 1) + calcularTribonacci(NUM - 2) + calcularTribonacci(NUM-3);
     
     
         }
