@@ -55,7 +55,7 @@ public class aBuscaPelosCristaisKyber {
             } else if (num < vet[meio]) {
                 return buscaBinariaRec(vet, inf, meio - 1, num);
             } else {
-                return buscaBinariaRec(vet, meio +1, sup, num);
+                return buscaBinariaRec(vet, meio + 1, sup, num);
             }
         } else {
             return -1;

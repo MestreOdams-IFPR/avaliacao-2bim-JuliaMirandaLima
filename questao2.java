@@ -15,7 +15,7 @@ public class questao2{
 
         // antigo : public static int calcularFibonacci(final int NUM){
 
-        public static int calcularTribonacci(final int NUM){
+        public static int calcularTribonacci(final int NUM){ // não tem esse final
             if(NUM == 0){
                 return 0;
     

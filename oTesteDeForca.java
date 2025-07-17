@@ -82,8 +82,7 @@ public class oTesteDeForca {
         }
     }
 
-
-    public static void swap(int[]vet, int i, int j){
+    public static void swap(int[] vet, int i, int j) {
         int temp = vet[i];
         vet[i] = vet[j];
         vet[j] = temp;
